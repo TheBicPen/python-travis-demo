@@ -6,9 +6,6 @@ class test_powers(unittest.TestCase):
     def test_same_num_and_base(self):
         self.assertTrue(powers.power_of(6,6))
         
-    def test_negative_exponent(self):
-        self.assertTrue(powers.power_of(25,5))
-        
     def test_positive_exponent(self):
         self.assertTrue(powers.power_of(3,27))    
         

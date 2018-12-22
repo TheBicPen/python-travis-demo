@@ -1,0 +1,12 @@
+dist: trusty
+sudo: required
+language: python
+python:
+  -"3.7.0"
+
+install:
+  -pip install pylint
+
+script:
+  -python test_powers.py
+  -pylint powers.py
