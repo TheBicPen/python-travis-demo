@@ -2,11 +2,11 @@ dist: trusty
 sudo: required
 language: python
 python:
-  -3.6
+  - "3.6"
   
 install:
-  -pip install pylint
+  - pip install pylint
 
 script:
-  -python test_powers.py
-  -pylint powers.py
+  - python test_powers.py
+  - pylint powers.py
