@@ -1,4 +1,7 @@
+"""
+Sample Python project to demonstrate use of Travis-CI
 
+"""
 
 def power_of(base: int, num: int) -> bool:
     """
