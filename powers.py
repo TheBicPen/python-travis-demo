@@ -9,5 +9,4 @@ def power_of(base: int, num: int) -> bool:
         value *= base
         if value == num:
             return True
-        else:
-            return False
+        return False
